@@ -1,4 +1,5 @@
-# Práctica 4.1: Progr4amación orientada a objetos
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rI46BDue)
+# Práctica 4.1: Programación orientada a objetos
 
 Apóyate en los siguientes recursos para realizar la práctica:
 
@@ -12,84 +13,62 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ## Identificación de la Actividad
 
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** [4.1 Ejercicios POO basico]
+- **Módulo:** [PROG]
+- **Unidad de Trabajo:** [Unidad 4: POO basico]
+- **Fecha de Creación:** [14/01/2026]
+- **Fecha de Entrega:** [16/01/2026]
 - **Alumno(s):**
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** [Fabio Tello Lopez]
+  - **Correo electrónico:** [ftellop678@g.educaand.es]
+  - **Iniciales del Alumno/Grupo:** [FTL]
 
 ## Descripción de la Actividad
-
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+Esta actividad tiene como objetivo aplicar los principios básicos de la Programación Orientada a Objetos (POO) utilizando el lenguaje Kotlin.
 
 ## Instrucciones de Compilación y Ejecución
 
 1. **Requisitos Previos:**
 
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
-2. **Pasos para Compilar el Código:**
-
-   ```bash
-   [Comando para compilar el código]
-   ```
-3. **Pasos para Ejecutar el Código:**
-
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
-4. **Ejecución de Pruebas:**
-
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
+- Lenguaje: Kotlin
+- Versión recomendada: Kotlin 1.9 o superior
+- JDK: JDK 17
+- Entorno de desarrollo: IntelliJ IDEA
+- Sistema de construcción: Gradle
 
 ## Desarrollo de la Actividad
 
 ### Descripción del Desarrollo
-
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+El desarrollo de la actividad se llevó a cabo siguiendo los diagramas UML proporcionados para cada ejercicio y se prestó especial atención a proteger los atributos mediante modificadores de acceso privados, asegurando que los datos solo se pudieran modificar a través de los métodos definidos. Además, se incluyeron validaciones en los constructores y en los setters para garantizar que los valores fueran correctos desde el inicio y durante la ejecución. Para manejar posibles errores o situaciones no permitidas se emplearon excepciones controladas de manera que el programa pudiera reaccionar adecuadamente sin detenerse inesperadamente. Se buscó mantener la claridad y legibilidad del código para que fuera fácil de entender y mantener, y cada ejercicio se implementó en su propia clase con una función main que permitiera probar su funcionamiento y verificar que todo operaba según lo esperado.
 
 ### Código Fuente
+Repositorio GitHub:
+https://github.com/IES-Rafael-Alberti/2425-u4-4-2-poo-basico-ftellol
 
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.kt` o algún enlace directo.]
+Estructura principal:
+
+- CuentaBancaria.kt = "src/main/kotlin/CuentaBancaria.kt"
+- Vehiculo.kt = "src/main/kotlin/Vehiculo.kt"
+- Libro.kt = "src/main/kotlin/Libro.kt"
+- Estudiante.kt = "src/main/kotlin/Estudiante.kt"
+- Producto.kt = "src/main/kotlin/Producto.kt"
 
 [Si hay varios ejercicios, habrá una documentación, por cada uno de los ejercicios.]
 [Por cada ejercicio, habrá enlaces embebidos de código a las clases principales y programa principal `main` ]
 
 ### Ejemplos de Ejecución
+Ejemplo: Clase Estudiante
 
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+1. Entrada:
+- Crear un estudiante
+- Asignar una nota válida
+- Intentar asignar una nota fuera de rango
 
-### Resultados de Pruebas
-
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
-
-## Documentación Adicional
-
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
-
-## Conclusiones
-
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
+2. Salida Esperada:
+- Estudiante: Antonio, Nota: 4.5
+- Error: La nota debe ir desde el 0 hasta el 10
 
 ## Referencias y Fuentes
-
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
-
-### Notas Adicionales:
-
-1. **Nombres de Archivos y Repositorios:**
-   - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
-2. **Permisos:**
-   - Verifica que el profesor tenga los permisos necesarios para acceder al repositorio o documento.
-3. **Formato:**
-   - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
-4. **Compilación y Ejecución:**
-   - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+- Apuntes del profesorado
+- Referencias a otros ejercicios hechos
+- Busqueda en kotlin oficial
